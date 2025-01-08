@@ -16,7 +16,7 @@ const App = () => {
       <Navbar />
       {/* <p className="text-2xl mb-5">Create a Crypto Wallet</p> */}
 
-      <div className="h-screen">
+      <div className="min-h-screen">
 
       {!selectedWallet ? (
         <div className="flex flex-col gap-5">
